@@ -1,0 +1,21 @@
+# dir 不需要提交的目录-recursive
+**/slprj
+#/matlab/HFI/slprj
+#/matlab/SMO/slprj
+#/matlab/ADRC/slprj
+#/matlab/DTC/slprj
+#/matlab/EKF/slprj
+#/matlab/Luenberger/slprj
+#/matlab/MRAS/slprj
+#/matlab/NonLinear/slprj
+
+*.slxc
+​
+# file 不需要提交的文件-递归
+*.mat
+​
+# log 不需要提交的任意包含后缀名为log的文件
+*.log
+​
+# Package Files 不需要提交的任意包含后缀名为jar的文件
+*.jar
